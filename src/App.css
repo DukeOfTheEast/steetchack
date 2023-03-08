@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #2b2b29;
+  display: flex;
+  justify-content: space-between;
+}

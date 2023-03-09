@@ -1,5 +1,11 @@
+import Getstarted from "./allLandingPage/Getstarted";
+
 function Landingpage() {
-  return <div>Landing page</div>;
+  return (
+    <div>
+      <Getstarted />
+    </div>
+  );
 }
 
 export default Landingpage;

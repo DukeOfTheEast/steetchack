@@ -1,0 +1,59 @@
+.getstart {
+  display: flex;
+}
+
+.woman {
+  width: 700px;
+  height: 700px;
+}
+
+.content {
+  padding: 70px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+h1 {
+  position: relative;
+  margin: 20px 0;
+  padding: 20px;
+  padding-right: 280px;
+  line-height: 40px;
+  font-size: 60px;
+}
+
+p {
+  font-size: 20px;
+  padding: 0 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.btn {
+  text-align: center;
+  margin: 30px 0;
+}
+
+button {
+  padding: 10px 50px;
+  border: none;
+  background: linear-gradient(
+    180deg,
+    rgba(43, 43, 41, 0.68) 0%,
+    rgba(43, 43, 41, 0.9) 20.31%,
+    #2b2b29 81.77%,
+    #000000 98.96%
+  );
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.brands {
+  display: flex;
+  gap: 50px;
+  padding: 10px 20px;
+}

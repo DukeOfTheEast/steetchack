@@ -1,0 +1,30 @@
+.about {
+  display: flex;
+  gap: 30px;
+  padding: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #b18e72;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+}
+
+h2 {
+  padding: 0 15px;
+  font-size: 35px;
+}

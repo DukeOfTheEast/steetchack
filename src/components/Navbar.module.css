@@ -24,6 +24,10 @@
   font-weight: lighter;
 }
 
+.navlink:hover {
+  color: #9f9385;
+}
+
 .signup {
   text-decoration: none;
   color: #fefefe;

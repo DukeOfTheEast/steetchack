@@ -1,31 +1,38 @@
+import { Link } from "react-router-dom";
+
 import classes from "./Navbar.module.css";
+import Logo from "../img/logo.png";
 
 function Navbar() {
   return (
-    <div>
+    <div className={classes.container}>
       <nav className={classes.nav}>
+        <img src={Logo} alt="" className={classes.logo} />
         <ul className={classes.navUl}>
           <li>
-            <a href="/" className={classes.navlink}>
+            <Link to="/" className={classes.navlink}>
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className={classes.navlink}>
+            <Link to="/" className={classes.navlink}>
               About Us
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className={classes.navlink}>
+            <Link to="/" className={classes.navlink}>
               FAQs
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className={classes.navlink}>
+            <Link to="/" className={classes.navlink}>
               Contact US
-            </a>
+            </Link>
           </li>
         </ul>
+        <Link to="/signup" className={classes.signup}>
+          Sign Up
+        </Link>
       </nav>
     </div>
   );

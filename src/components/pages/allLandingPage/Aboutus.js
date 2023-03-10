@@ -11,7 +11,7 @@ function Aboutus() {
         <p>
           Steetchack is a top web application developed to give tailors a more
           reliable way to stay organized and increase productivity in a simple
-          yet efficient way
+          yet efficient way.
         </p>
         <p>
           What we are offering is efficiency with convenience. Tailors will be

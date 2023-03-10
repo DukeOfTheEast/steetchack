@@ -1,0 +1,62 @@
+.how {
+  display: flex;
+  text-align: center;
+}
+
+.howImage {
+  width: 50px;
+  height: 50px;
+}
+
+.howitworks {
+  text-align: center;
+  padding: 60px 120px;
+}
+
+.howeach {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 400px;
+}
+
+.dashboard,
+.manage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  bottom: -90px;
+  padding-bottom: 30px;
+  width: 400px;
+}
+
+.twists {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.one {
+  position: relative;
+  left: -120px;
+  bottom: -120px;
+  width: 120px;
+}
+
+.two {
+  position: relative;
+  left: -20px;
+  bottom: -120px;
+  width: 120px;
+}
+
+.three {
+  position: relative;
+  right: -160px;
+  bottom: -150px;
+  width: 120px;
+}

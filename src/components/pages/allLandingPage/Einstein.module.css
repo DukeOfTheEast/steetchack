@@ -1,0 +1,25 @@
+.einstein {
+  position: relative;
+  text-align: center;
+  background-color: #9f9385;
+  padding: 50px 20px;
+  color: white;
+}
+
+/* .albert {
+  position: relative;
+  margin: 20px 0;
+} */
+
+.p {
+  font-size: 32px;
+  line-height: 28px;
+  margin: 20px 0;
+}
+
+.alb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 220px;
+}

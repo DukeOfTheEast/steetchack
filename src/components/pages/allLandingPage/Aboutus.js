@@ -4,7 +4,7 @@ import classes from "./Aboutus.module.css";
 
 function Aboutus() {
   return (
-    <div className={classes.about}>
+    <div id="aboutus" className={classes.about}>
       <img src={Smilinggirl} alt="" className={classes.image} />
       <div className={classes.content}>
         <h2>About us</h2>

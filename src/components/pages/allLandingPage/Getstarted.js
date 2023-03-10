@@ -17,7 +17,7 @@ function Getstarted() {
             location at any time.
           </p>
           <div className={classes.btn}>
-            <button>Get Started</button>
+            <button className={classes.button}>Get Started</button>
           </div>
         </div>
         <div className={classes.brands}>

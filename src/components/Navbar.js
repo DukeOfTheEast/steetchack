@@ -15,9 +15,9 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/" className={classes.navlink}>
+            <a href="/" className={classes.navlink}>
               About Us
-            </Link>
+            </a>
           </li>
           <li>
             <Link to="/" className={classes.navlink}>

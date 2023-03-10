@@ -1,0 +1,31 @@
+.download {
+  text-align: center;
+  padding: 100px 10px;
+}
+
+.para {
+  margin: 30px 0;
+  padding: 0 400px;
+}
+
+.btnD {
+  padding: 15px 40px;
+  margin: 0 20px;
+  border: none;
+  background-color: #b18e72;
+  color: white;
+  font-size: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btnM {
+  padding: 15px 40px;
+  margin: 0 20px;
+  font-size: 10px;
+  color: #b18e72;
+  border: 1px solid #b18e72;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}

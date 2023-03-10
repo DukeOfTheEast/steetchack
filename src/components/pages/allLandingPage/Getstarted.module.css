@@ -37,7 +37,7 @@ p {
   margin: 30px 0;
 }
 
-button {
+.button {
   padding: 10px 50px;
   border: none;
   background: linear-gradient(

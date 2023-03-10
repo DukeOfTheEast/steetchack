@@ -1,0 +1,46 @@
+.reviews {
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+.reviewcards {
+  display: flex;
+  margin: 50px 0;
+  gap: 30px;
+}
+
+.reviewcard {
+  background-color: #b18e72;
+  width: 400px;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 10px;
+}
+
+.scroll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainscroll {
+  background-color: #2b2b29;
+  padding: 0 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.deed {
+  margin: 20px 0;
+}
+
+.scrollbtn {
+  padding: 15px 20px;
+  font-size: 16px;
+  background-color: #2b2b29;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

@@ -6,6 +6,7 @@ import Howitworks from "./allLandingPage/Howitworks";
 import Download from "./allLandingPage/Download";
 import FAQ from "./allLandingPage/FAQ";
 import Reviews from "./allLandingPage/Reviews";
+import Footer from "../Footer";
 
 function Landingpage() {
   return (
@@ -18,6 +19,7 @@ function Landingpage() {
       <Download />
       <FAQ />
       <Reviews />
+      <Footer />
     </div>
   );
 }

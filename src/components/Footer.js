@@ -22,34 +22,34 @@ function Footer() {
         </div>
         <div className={classes.who}>
           <h4>Who we are</h4>
-          <ul>
-            <li>
+          <ul className={classes.footerUl}>
+            <li key={1}>
               <a href="/">About us</a>
             </li>
-            <li>
+            <li key={2}>
               <a href="/">Our Services</a>
             </li>
-            <li>
+            <li key={3}>
               <a href="/">Our Team</a>
             </li>
-            <li>
+            <li key={4}>
               <a href="/">Privacy Policy</a>
             </li>
-            <li>
+            <li key={5}>
               <a href="/">Terms of Service</a>
             </li>
           </ul>
         </div>
         <div className={classes.support}>
           <h4>Support</h4>
-          <ul>
-            <li>
+          <ul className={classes.footerUl}>
+            <li key={6}>
               <a href="/">Get Started</a>
             </li>
-            <li>
+            <li key={7}>
               <a href="/">Help</a>
             </li>
-            <li>
+            <li key={8}>
               <a href="/">FAQ</a>
             </li>
           </ul>
@@ -64,7 +64,7 @@ function Footer() {
           </p>
           <form className={classes.subForm}>
             <input
-              type="text"
+              type="email"
               placeholder="Enter email address"
               className={classes.inputSub}
             />

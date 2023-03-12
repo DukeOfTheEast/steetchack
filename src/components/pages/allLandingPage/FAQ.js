@@ -5,6 +5,7 @@ import Accordion from "./Accordion";
 const FAQ = () => {
   const accordionData = [
     {
+      key: 1,
       title: "What does this website do?",
       content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
       laborum cupiditate possimus labore, hic temporibus velit dicta earum
@@ -12,6 +13,7 @@ const FAQ = () => {
       voluptatem.`,
     },
     {
+      key: 2,
       title: "Is registration for free?",
       content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
       laborum cupiditate possimus labore, hic temporibus velit dicta earum
@@ -19,6 +21,7 @@ const FAQ = () => {
       voluptatem.`,
     },
     {
+      key: 3,
       title: "Can i store customer’s measurement?",
       content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
           laborum cupiditate possimus labore, hic temporibus velit dicta earum
@@ -26,6 +29,7 @@ const FAQ = () => {
           voluptatem.`,
     },
     {
+      key: 4,
       title: "How do i create a new folder?",
       content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
           laborum cupiditate possimus labore, hic temporibus velit dicta earum
@@ -33,6 +37,7 @@ const FAQ = () => {
           voluptatem.`,
     },
     {
+      key: 5,
       title: "How do i contact support team?",
       content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
           laborum cupiditate possimus labore, hic temporibus velit dicta earum

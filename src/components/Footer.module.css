@@ -93,12 +93,17 @@
   font-size: 10px;
 }
 
+.inputSub:focus {
+  outline: none;
+  color: white;
+}
+
 .support {
   width: 150px;
   color: white;
 }
 
-ul {
+.footerUl {
   list-style-type: none;
   margin: 20px 0;
   display: flex;

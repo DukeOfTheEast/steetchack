@@ -3,8 +3,12 @@ import Taiwo from "../../../img/taiwo.png";
 import Chisom from "../../../img/chisom.png";
 import Alisha from "../../../img/alisha.png";
 import Arrup from "../../../img/arrUp.png";
+// import Navbar from "../../Navbar";
 
 function Reviews() {
+  // function scrollTo() {
+  //   ( <Navbar /> ).scrollIntoView({ behavior: "smooth" }));
+  // }
   return (
     <div className={classes.reviews}>
       <h3>Reviews</h3>

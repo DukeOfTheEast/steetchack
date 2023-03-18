@@ -47,7 +47,7 @@ function Signup() {
             <img src={Instagram} alt="" className={classes.route} />
           </div>
           <p className={classes.already}>
-            Already have an account?
+            Already have an account?{" "}
             <Link to="/signin" className={classes.tosignin}>
               Sign in
             </Link>

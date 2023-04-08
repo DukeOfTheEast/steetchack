@@ -27,7 +27,7 @@ function Signin() {
             registered.
           </p>
           <form className={classes.signinForm}>
-            <input type="text" placeholder="Full name" />
+            <input type="email" placeholder="Email" />
             <input type="text" placeholder="Password" />
           </form>
           <div className={classes.remAndfor}>

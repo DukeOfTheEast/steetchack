@@ -22,7 +22,7 @@ const FAQ = () => {
     },
     {
       key: 3,
-      title: "Can i store customer’s measurement?",
+      title: "Can I store customer’s measurement?",
       content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
           laborum cupiditate possimus labore, hic temporibus velit dicta earum
           suscipit commodi eum enim atque at? Et perspiciatis dolore iure
@@ -30,7 +30,7 @@ const FAQ = () => {
     },
     {
       key: 4,
-      title: "How do i create a new folder?",
+      title: "How do I create a new folder?",
       content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
           laborum cupiditate possimus labore, hic temporibus velit dicta earum
           suscipit commodi eum enim atque at? Et perspiciatis dolore iure
@@ -38,7 +38,7 @@ const FAQ = () => {
     },
     {
       key: 5,
-      title: "How do i contact support team?",
+      title: "How do I contact support team?",
       content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
           laborum cupiditate possimus labore, hic temporibus velit dicta earum
           suscipit commodi eum enim atque at? Et perspiciatis dolore iure

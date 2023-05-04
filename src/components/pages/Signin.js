@@ -1,14 +1,25 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+// import { useRef, useState } from "react";
 import classes from "./Signin.module.css";
 import SigninImage from "../../img/signinImage.png";
 import Facebook from "../../img/facebook.png";
 import Google from "../../img/google.png";
 import Instagram from "../../img/instagram.png";
 import Footer from "../Footer";
+// import Dashboard from "./Dashboard";
+import Navbar from "../Navbar";
 
 function Signin() {
+  const navigate = useNavigate();
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    navigate("/dashboard");
+  }
+
   return (
     <div>
+      <Navbar />
       <div className={classes.mainSignin}>
         <div className={classes.signinImgContainer}>
           <img src={SigninImage} alt="" className={classes.thread} />
@@ -41,7 +52,9 @@ function Signin() {
               </Link>
             </div>
           </div>
-          <button className={classes.signinSubmit}>Sign in</button>
+          <button className={classes.signinSubmit} onClick={handleSubmit}>
+            Sign in
+          </button>
           <div className={classes.orSignin}>
             <span className={classes.orlineSignin}></span>
             <p>Or Login with</p>

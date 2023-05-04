@@ -7,10 +7,12 @@ import Download from "./allLandingPage/Download";
 import FAQ from "./allLandingPage/FAQ";
 import Reviews from "./allLandingPage/Reviews";
 import Footer from "../Footer";
+import Navbar from "../Navbar";
 
 function Landingpage() {
   return (
     <div>
+      <Navbar />
       <Getstarted />
       <Services />
       <Aboutus />

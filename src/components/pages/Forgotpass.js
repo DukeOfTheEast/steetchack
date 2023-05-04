@@ -1,16 +1,19 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import classes from "./Forgotpass.module.css";
 import Footer from "./../Footer";
+import Navbar from "../Navbar";
 
 function Forgotpass() {
-  function forgotReset(e) {
-    e.preventDefault();
+  const navigate = useNavigate();
 
-    console.log("i am in class");
+  function gotoReset(e) {
+    e.preventDefault();
+    navigate("/reset");
   }
 
   return (
     <div>
+      <Navbar />
       <div className={classes.forgot}>
         <div className={classes.forgotall}>
           <h2>Forgot password</h2>
@@ -24,7 +27,7 @@ function Forgotpass() {
               placeholder="Email address"
               className={classes.forgotinput}
             />
-            <button className={classes.forgotbtn} onClick={forgotReset}>
+            <button className={classes.forgotbtn} onClick={gotoReset}>
               Submit
             </button>
           </form>

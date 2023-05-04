@@ -1,14 +1,22 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import SignupImage from "../../img/signupImage.png";
 import Instagram from "../../img/instagram.png";
 import Google from "../../img/google.png";
 import Facebook from "../../img/facebook.png";
 import classes from "./Signup.module.css";
 import Footer from "../Footer";
+import Navbar from "../Navbar";
 
 function Signup() {
+  const navigate = useNavigate();
+  function nowSignin(e) {
+    e.preventDefault();
+    navigate("/signin");
+  }
+
   return (
     <div>
+      <Navbar />
       <div className={classes.mainSignup}>
         <div className={classes.signupImgContainer}>
           <img src={SignupImage} alt="" className={classes.sewingMachine} />
@@ -32,13 +40,17 @@ function Signup() {
             <input type="text" placeholder="Phone number" />
             <input type="text" placeholder="Business name" />
             <input type="text" placeholder="Password" />
-            <button type="submit" className={classes.signupSubmit}>
+            <button
+              type="submit"
+              className={classes.signupSubmit}
+              onClick={nowSignin}
+            >
               Sign up
             </button>
           </form>
           <div className={classes.or}>
             <span className={classes.orline}></span>
-            <p>Or sign up with</p>
+            <p>Or signup with</p>
             <span className={classes.orline}></span>
           </div>
           <div className={classes.imgroute}>

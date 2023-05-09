@@ -1,21 +1,34 @@
 import Navbar from "../Navbar";
 import Footer from "../Footer";
+import classes from "./Resetpass.module.css";
 
 function Resetpass() {
   return (
     <div>
       <Navbar />
-      <div>
-        <h1>Reset password</h1>
-        <p>
+      <div className={classes.mainReset}>
+        <h1 className={classes.resetH}>Reset password</h1>
+        <p className={classes.resetP}>
           Enter the verification code that was sent to your email and enter your
           new password
         </p>
-        <form>
-          <input type="text" placeholder="Verification code" />
-          <input type="text" placeholder="New password" />
-          <input type="text" placeholder="Confirm new password" />
-          <button>Reset password</button>
+        <form className={classes.resetForm}>
+          <input
+            type="text"
+            placeholder="Verification code"
+            className={classes.resetInput}
+          />
+          <input
+            type="text"
+            placeholder="New password"
+            className={classes.resetInput}
+          />
+          <input
+            type="text"
+            placeholder="Confirm new password"
+            className={classes.resetInput}
+          />
+          <button className={classes.resetBtn}>Reset password</button>
         </form>
       </div>
       <Footer />

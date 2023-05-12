@@ -1,7 +1,9 @@
+import AlertTop from "./AlertTop";
+
 function Addtask() {
   return (
     <div>
-      <h1>This is addtasks</h1>
+      <AlertTop />
     </div>
   );
 }

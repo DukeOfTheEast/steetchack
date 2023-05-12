@@ -1,0 +1,40 @@
+.taiwo {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+.shop {
+  font-size: 14px;
+}
+
+.headDash {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 60px;
+  box-shadow: 1px 3px rgb(0, 0, 0, 0.1);
+}
+
+.topJ {
+  display: flex;
+  align-items: center;
+}
+
+.headInput {
+  padding: 10px 25px;
+  padding-right: 100px;
+  background-color: #ededed;
+  border: none;
+  border-radius: 25px;
+  font-size: 12px;
+}
+
+.headInput:focus {
+  outline: none;
+}
+
+.bell {
+  width: 20px;
+  height: 20px;
+}

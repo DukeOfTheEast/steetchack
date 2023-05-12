@@ -1,7 +1,9 @@
+import AlertTop from "./AlertTop";
+
 function Customfolder() {
   return (
     <div>
-      <h1>This is Customfolder</h1>
+      <AlertTop />
     </div>
   );
 }

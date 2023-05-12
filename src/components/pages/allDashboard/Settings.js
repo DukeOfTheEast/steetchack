@@ -1,7 +1,9 @@
+import AlertTop from "./AlertTop";
+
 function Settings() {
   return (
     <div>
-      <h1>This is settings</h1>
+      <AlertTop />
     </div>
   );
 }

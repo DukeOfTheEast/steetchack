@@ -1,7 +1,9 @@
+import AlertTop from "./AlertTop";
+
 function Catalogue() {
   return (
     <div>
-      <h1>This is catalogue</h1>
+      <AlertTop />
     </div>
   );
 }

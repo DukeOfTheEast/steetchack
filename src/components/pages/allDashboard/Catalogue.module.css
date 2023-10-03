@@ -1,0 +1,49 @@
+.cat {
+  margin-left: 280px;
+}
+
+.mainCat {
+  padding: 20px 40px;
+}
+
+.catup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 30px;
+}
+
+.catImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.catBtn {
+  display: flex;
+  color: white;
+  background-color: #b18e72;
+  align-items: center;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 10px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.select {
+  margin: 0 80px;
+}
+
+.imgTheme {
+  text-align: center;
+  color: #b18e72;
+}
+
+.catImgs {
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+}

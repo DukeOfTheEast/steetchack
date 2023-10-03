@@ -9,8 +9,17 @@ import Footer from "../Footer";
 // import Dashboard from "./Dashboard";
 import Navbar from "../Navbar";
 
+import { auth, provider } from "../../config/firebase";
+import { signInWithPopup } from "firebase/auth";
+
 function Signin() {
   const navigate = useNavigate();
+
+  const signInWithGoogle = async () => {
+    const result = await signInWithPopup(auth, provider);
+    console.log(result);
+    navigate("/dashboard");
+  };
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -62,7 +71,12 @@ function Signin() {
           </div>
           <div className={classes.imgRouters}>
             <img src={Facebook} alt="" className={classes.imgRouter} />
-            <img src={Google} alt="" className={classes.imgRouter} />
+            <img
+              src={Google}
+              alt=""
+              className={classes.imgRouter}
+              onClick={signInWithGoogle}
+            />
             <img src={Instagram} alt="" className={classes.imgRouter} />
           </div>
           <p className={classes.already}>
